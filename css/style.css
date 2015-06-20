@@ -1,0 +1,124 @@
+/*
+  ******************** Undo's ********************
+*/
+
+input, button {
+  display: inline-block;
+  text-indent: 1vh;
+  border: none;
+  outline: none;
+  padding: 0;
+  margin: 0;
+  font-size: 4vh;
+  font-family: kaushan;
+}
+
+input:focus, {
+  outline: none;
+  box-shadow: 1px 1px 14px 14px rgba(164, 233, 235, 1);
+}
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+
+input::-webkit-input-placeholder {
+  color: rgb(207, 207, 207);
+}
+
+input:-moz-placeholder {
+  color: rgb(207, 207, 207);
+}
+
+input::-moz-placeholder {
+  color: rgb(207, 207, 207);
+}
+
+input:-ms-input-placeholder {
+  color: rgb(207, 207, 207);
+}
+
+
+/*
+  ******************** behaviours ********************
+*/
+.centered-text{
+  text-align: center;
+}
+
+.full-height {
+  min-height: 100vh;
+}
+
+.button {
+  height: 100%;
+  vertical-align: super;
+}
+
+.button.secondary {
+}
+
+.large-font {
+  font-size: 5vh;
+}
+
+.font-size7 {
+  font-size: 70%;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.font-arial {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.text-rl-blue{
+  color: rgba(0, 51, 102, 1)
+}
+.bg-rl-blue{
+  background-color: rgba(0, 51, 102, 1)
+}
+
+.text-dirty-yellow {
+  color: rgba(238, 237, 37, 1) !important;
+}
+
+.text-green {
+  color: rgb(48, 139, 42);
+}
+
+.text-grey{
+  color: rgb(207, 207, 207);
+}
+
+.bg-green {
+  background-color: rgb(48, 139, 42);
+}
+
+.shadow {
+  -webkit-box-shadow: 1px 3px 10px 1px #090606; /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow: 1px 3px 10px 1px #090606; /* Firefox 3.5 - 3.6 */
+  box-shadow: 1px 3px 10px 1px #090606; /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+
+/*
+  ******************** forced style ********************
+  try to keep this minimum, create behaviouus instead.
+  ******************************************************
+*/
+
+@font-face {
+  font-family: kaushan;
+  src: url("../fonts/kaushan.otf") format("opentype");
+}
+
+body {
+  font-size: 4vh;
+  font-family: kaushan;
+}
